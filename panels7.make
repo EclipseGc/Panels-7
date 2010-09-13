@@ -1,4 +1,3 @@
-
 projects[ctools][type] = "module"
 projects[ctools][download][type] = "git"
 projects[ctools][download][url] = "http://github.com/sdboyer/ctools.git"
