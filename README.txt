@@ -1,3 +1,14 @@
+Currently working against the following issues:
+
+Ajax Lazy Loading:
+http://drupal.org/node/561858
+Ajax Submission:
+http://drupal.org/node/850612
+Ajax insert commands:
+http://drupal.org/node/736066
+Ajax Options not Dynamic:
+http://drupal.org/node/922796
+
 To utilize this profile, simply provide a drush_make stub file with the following content:
 
 core = "7.x"
@@ -5,9 +16,9 @@ projects[drupal][type] = "core"
 projects[drupal][download][type] = "git"
 projects[drupal][download][url] = "http://github.com/drupal/drupal.git"
 
-projects[drupal][patch][] = "http://drupal.org/files/issues/drupal.ajax_lazy_load_561858_142.patch"
-projects[drupal][patch][] = "http://drupal.org/files/issues/850612-use-ajax-submit.patch"
-projects[drupal][patch][] = "http://drupal.org/files/issues/919994-replace-command-improvement_0.patch"
+projects[drupal][patch][] = "http://drupal.org/files/issues/drupal.ajax-lazy-load.158.patch"
+projects[drupal][patch][] = "http://drupal.org/files/issues/drupal.ajax-use-submit.21.patch"
+projects[drupal][patch][] = "http://drupal.org/files/issues/ajax-commandinsert-736066-30.patch"
 projects[drupal][patch][] = "http://drupal.org/files/issues/922796-options-not-modifiable.patch"
 
 projects[panels7][type] = "profile"
