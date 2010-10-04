@@ -1,6 +1,7 @@
 Currently working against the following issues:
 
 Ajax Lazy Loading:
+LANDED!!!
 http://drupal.org/node/561858
 Ajax Submission:
 http://drupal.org/node/850612
@@ -18,7 +19,9 @@ projects[drupal][type] = "core"
 projects[drupal][download][type] = "git"
 projects[drupal][download][url] = "http://github.com/drupal/drupal.git"
 
-projects[drupal][patch][] = "http://drupal.org/files/issues/drupal.ajax_lazy_load_561858_180.patch"
+;LANDED
+;projects[drupal][patch][] = "http://drupal.org/files/issues/drupal.ajax_lazy_load_561858_180.patch"
+;AWAITING
 projects[drupal][patch][] = "http://drupal.org/files/issues/drupal.ajax-use-submit.21.patch"
 projects[drupal][patch][] = "http://drupal.org/files/issues/ajax-commandinsert-736066-30.patch"
 projects[drupal][patch][] = "http://drupal.org/files/issues/922796-options-not-modifiable.patch"
