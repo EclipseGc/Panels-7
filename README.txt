@@ -7,4 +7,4 @@ projects[drupal][version] = "7"
 
 projects[panels7][type] = "profile"
 projects[panels7][download][type] = "git"
-projects[panels7][download][url] = "http://github.com/EclipseGc/Panels-7.git"
+projects[panels7][download][url] = http://github.com/EclipseGc/Panels-7.git
