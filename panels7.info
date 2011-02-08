@@ -27,4 +27,4 @@ dependencies[] = page_manager
 dependencies[] = views_content
 dependencies[] = panels
 files[] = panels7.profile
-version = "7.x-alpha1"
+version = "7.x-alpha2"
