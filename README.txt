@@ -1,4 +1,4 @@
-To utilize this profile, simply provide a drush_make stub file with the following content:
+;To utilize this profile, simply provide a drush_make stub file with the following content:
 
 api = 2
 core = "7.x"
